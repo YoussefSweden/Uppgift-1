@@ -20,16 +20,16 @@ namespace _1._Calculator
                 switch (inMatatVal)
                 {
                     case 1:
-                        addition();
+                        Adition();
                         break;
                     case 2:
-                        subtraktion();
+                        Subtraktion();
                         break;
                     case 3:
-                        multiplikation();
+                        Multiplikation();
                         break;
                     case 4:
-                        division();
+                        Division();
                         break;
                     case 99:
                         isAlive = false;
@@ -41,7 +41,7 @@ namespace _1._Calculator
                 }                
             }            
         }
-        static void addition()
+        static void Addition()
         {
             Console.WriteLine("mata in första talet!");
             double tal1 = double.Parse(Console.ReadLine());
@@ -49,7 +49,7 @@ namespace _1._Calculator
             double tal2 = double.Parse(Console.ReadLine());
             Console.WriteLine("summan av talen är: "+(tal1+tal2));
         }
-        static void subtraktion()
+        static void Subtraktion()
         {
             Console.WriteLine("mata in ett första talet!");
             double tal1 = double.Parse(Console.ReadLine());
@@ -57,7 +57,7 @@ namespace _1._Calculator
             double tal2 = double.Parse(Console.ReadLine());
             Console.WriteLine("Differensen mellan talen är: " + (tal1 - tal2));
         }
-        static void multiplikation()
+        static void Multiplikation()
         {
             Console.WriteLine("mata in första talet");
             double tal1 = double.Parse(Console.ReadLine());
@@ -65,7 +65,7 @@ namespace _1._Calculator
             double tal2 = double.Parse(Console.ReadLine());
             Console.WriteLine("Talens produkt är: " + (tal1*tal2));
         }
-        static void division()
+        static void Division()
         {
             Console.WriteLine("mata in täljaren");
             double tal1 = double.Parse(Console.ReadLine());
